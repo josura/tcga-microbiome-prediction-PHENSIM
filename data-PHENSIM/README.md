@@ -9,4 +9,4 @@ To run on these input, the scripts are the same as the ones used for the kraken 
 ./run_model.sh --model-type rfe --dataset data/tcga_blca_resp_gemcitabine_kraken_eset_virtualEndPert.rds
 ```
 
-The last part of the file name means that it is not a kraken expression set but the endpoint perturbation of the PHENSIM output. This name was used to not mantain the code used in the original project.
+The last part of the file name means that it is not a kraken expression set but the endpoint perturbation of the PHENSIM output. This name was used to mantain the code used in the original project.
