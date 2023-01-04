@@ -2,6 +2,8 @@ Folder that contains PHENSIM data that will be used to run the program and see i
 
 PHENSIM data are the Endpoint perturbation of pathways taken from the output of PHENSIM, in particular the data used is the Average node perturbation for the pathways.
 
+The raw endpoint perturbation, which they replace the raw counts on the expression set input, are reported on the file "matrix_perturbation_". 
+
 The data is seen as a **kraken** input since the kraken inputs are not normalized and the pipeline is a straightforward model.
 
 To run on these input, the scripts are the same as the ones used for the kraken inputs, an example is the following:
