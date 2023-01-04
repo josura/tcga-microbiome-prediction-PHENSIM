@@ -163,6 +163,13 @@ Drug response:
 ./run_model.sh --model-type rfe --dataset data/tcga_blca_resp_cisplatin_kraken_eset.rds
 ```
 
+PHENSIM models:
+
+Drug response:
+```bash
+./run_model.sh --model-type rfe --dataset data-PHENSIM/tcga_blca_resp_gemcitabine_kraken_eset_virtualEndPert.rds
+```
+
 The modeling results will be in `results/models`.
 
 ### Model results
